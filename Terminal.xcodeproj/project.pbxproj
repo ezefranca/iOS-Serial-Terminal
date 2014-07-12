@@ -15,8 +15,8 @@
 		B41184A5196DD9E4004EB8F4 /* JMTerminalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B41184A4196DD9E4004EB8F4 /* JMTerminalView.m */; };
 		B44E1B2C196E99FA00E0A049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44E1B2B196E99FA00E0A049 /* Foundation.framework */; };
 		B44E1B2E196E9A0200E0A049 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44E1B2D196E9A0200E0A049 /* UIKit.framework */; };
-		B4C1A0651971752B0085321E /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C1A0641971752B0085321E /* libRscMgrUniv.a */; };
 		B4C1A06719717E590085321E /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C1A06619717E590085321E /* ExternalAccessory.framework */; };
+		B4C1A068197187090085321E /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C1A0641971752B0085321E /* libRscMgrUniv.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,8 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4C1A068197187090085321E /* libRscMgrUniv.a in Frameworks */,
 				B4C1A06719717E590085321E /* ExternalAccessory.framework in Frameworks */,
-				B4C1A0651971752B0085321E /* libRscMgrUniv.a in Frameworks */,
 				B44E1B2E196E9A0200E0A049 /* UIKit.framework in Frameworks */,
 				B44E1B2C196E99FA00E0A049 /* Foundation.framework in Frameworks */,
 			);
@@ -290,6 +290,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
+					"$(PROJECT_DIR)/Redpark",
+					SDK/lib,
 				);
 				OTHER_LDFLAGS = (
 					"-lstdc++",
@@ -312,6 +314,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
+					"$(PROJECT_DIR)/Redpark",
+					SDK/lib,
 				);
 				OTHER_LDFLAGS = (
 					"-lstdc++",
