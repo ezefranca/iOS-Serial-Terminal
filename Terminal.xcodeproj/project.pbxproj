@@ -108,7 +108,8 @@
 				B4C1A0611971752B0085321E /* redparkSerial.h */,
 				B4C1A0621971752B0085321E /* RscMgr.h */,
 			);
-			path = inc;
+			name = inc;
+			path = "Redpark SDK/inc";
 			sourceTree = "<group>";
 		};
 		B4C1A0631971752B0085321E /* lib */ = {
@@ -116,7 +117,8 @@
 			children = (
 				B4C1A0641971752B0085321E /* libRscMgrUniv.a */,
 			);
-			path = lib;
+			name = lib;
+			path = "Redpark SDK/lib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
